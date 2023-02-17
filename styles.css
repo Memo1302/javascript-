@@ -1,0 +1,27 @@
+body{
+    background-color: blueviolet;
+}
+
+h1{
+    color: #050558;
+    font-family: 'Boogaloo', cursive;
+    font-size: 5em;
+    font-weight: 900;
+    line-height: 1.5;
+    text-align: center;
+}
+h2{
+    color: #050558;
+    font-family: 'Boogaloo', cursive;
+    font-size: 5em;
+    font-weight: 900;
+    text-align: center;
+}
+img{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+p{
+    text-align: end;
+}
