@@ -56,6 +56,10 @@ if (numero === 44) {
 
 
 
+
+alert("Indique en que gasto",);
+let option = Number(prompt("1. Cerveza, 2. Vino, 3. Gaseosas, 4. Agua, 5. Otros, 0. Nada!"));
+
 const insumos = [
     { id: 1, nombre: "Cerveza", precio: 760 },
     { id: 2, nombre: "Vino", precio: 1200 },
@@ -64,11 +68,6 @@ const insumos = [
     { id: 5, nombre: "Otros", precio: 1000 },
 ];
 
-let opcionesDeGastos = Number(prompt("Indique en que gasto: 1. Cerveza, 2. Vino, 3. Gaseosas, 4. Agua, 5. Otros, 0. Nada!",));
-
-
-
-let option = Number(prompt("1. Cerveza, 2. Vino, 3. Gaseosas, 4. Agua, 5. Otros, 0. Nada!"));
 
 switch (option) {
     case 1:
@@ -103,51 +102,8 @@ switch (option) {
 
 alert("Gastaste en " + gasto);
 
-
-
-
-let compra = number(prompt("Que compraste: "));
-alert(opcionesDeGastos)
-
-let gastosCompra = parseInt(prompt("De talla el gasto:"))
-
-
-
-let gastos = Number(prompt("1. Cerveza, 2. Vino, 3. Gaseosas, 4. Agua, 5. Otros"));
-
-switch (gastos) {
-    case 1:
-        gastasteEn = "1. Cerveza";
-
-        break;
-
-    case 2:
-        gastasteEn = "2. Vino";
-
-        break;
-
-    case 3:
-        gastasteEn = "3. Gaseosas";
-
-        break;
-    case 4:
-        gastasteEn = "4. Agua";
-
-        break;
-
-    case 5:
-        gastasteEn = "5. Otros";
-
-        break;
-
-
-    default:
-        gastasteEn = "0- Salir";
-        break;
-}
-
-alert("Gastaste en " + gastosEn);
-
+let cuantoGastaste = parseInt(prompt("Ingrese el total de lo gastado:"));
+alert("Gastaste: $" + cuantoGastaste)
 
 
 }
